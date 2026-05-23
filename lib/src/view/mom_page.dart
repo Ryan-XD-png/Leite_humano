@@ -10,6 +10,14 @@ class MomPage extends StatefulWidget {
 class _MomPageState extends State<MomPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Container(
+        width: 200,
+        child: TextField(
+
+        ),
+      ),
+    );
   }
 }
